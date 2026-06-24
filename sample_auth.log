@@ -1,0 +1,32 @@
+Jun 15 02:13:01 server sshd[1234]: Failed password for root from 203.0.113.42 port 54321 ssh2
+Jun 15 02:13:02 server sshd[1234]: Failed password for root from 203.0.113.42 port 54321 ssh2
+Jun 15 02:13:03 server sshd[1234]: Failed password for root from 203.0.113.42 port 54321 ssh2
+Jun 15 02:13:04 server sshd[1234]: Failed password for root from 203.0.113.42 port 54321 ssh2
+Jun 15 02:13:05 server sshd[1234]: Failed password for root from 203.0.113.42 port 54321 ssh2
+Jun 15 02:13:06 server sshd[1234]: Failed password for root from 203.0.113.42 port 54321 ssh2
+Jun 15 02:13:07 server sshd[1234]: Failed password for root from 203.0.113.42 port 54321 ssh2
+Jun 15 02:13:08 server sshd[1234]: Failed password for root from 203.0.113.42 port 54321 ssh2
+Jun 15 02:13:09 server sshd[1234]: Failed password for root from 203.0.113.42 port 54321 ssh2
+Jun 15 02:13:10 server sshd[1234]: Failed password for root from 203.0.113.42 port 54321 ssh2
+Jun 15 02:13:11 server sshd[1234]: Failed password for admin from 203.0.113.42 port 54321 ssh2
+Jun 15 02:13:12 server sshd[1234]: Failed password for admin from 203.0.113.42 port 54321 ssh2
+Jun 15 02:13:13 server sshd[1234]: Failed password for admin from 203.0.113.42 port 54321 ssh2
+Jun 15 02:13:14 server sshd[1234]: Failed password for admin from 203.0.113.42 port 54321 ssh2
+Jun 15 02:13:15 server sshd[1234]: Failed password for admin from 203.0.113.42 port 54321 ssh2
+Jun 15 02:13:16 server sshd[1234]: Accepted password for admin from 203.0.113.42 port 54321 ssh2
+Jun 15 02:13:20 server sshd[1235]: pam_unix(sudo:auth): authentication failure; logname=admin uid=1001 euid=0 tty=/dev/pts/0 ruser=admin rhost=
+Jun 15 02:14:01 server sudo[2001]: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/bash
+Jun 15 02:14:05 server useradd[2050]: new user: name=hacker123, UID=0, GID=0, home=/root, shell=/bin/bash
+Jun 15 08:00:00 server sshd[3000]: Accepted password for alice from 10.0.0.5 port 22345 ssh2
+Jun 15 08:30:00 server sshd[3001]: Accepted password for bob from 10.0.0.6 port 22346 ssh2
+Jun 15 09:00:00 server sshd[3002]: Accepted password for charlie from 10.0.0.7 port 22347 ssh2
+Jun 15 03:45:00 server sshd[3003]: Accepted password for dave from 192.168.1.10 port 22348 ssh2
+Jun 15 14:00:00 server sshd[3004]: Failed password for nobody from 198.51.100.77 port 11111 ssh2
+Jun 15 14:00:01 server sshd[3004]: Failed password for nobody from 198.51.100.77 port 11111 ssh2
+Jun 15 14:00:02 server sshd[3004]: Failed password for nobody from 198.51.100.77 port 11111 ssh2
+Jun 15 14:00:03 server sshd[3004]: Failed password for nobody from 198.51.100.77 port 11111 ssh2
+Jun 15 14:00:04 server sshd[3004]: Failed password for nobody from 198.51.100.77 port 11111 ssh2
+Jun 15 14:00:05 server sshd[3004]: Failed password for nobody from 198.51.100.77 port 11111 ssh2
+Jun 15 14:30:00 server sudo[4000]: alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Jun 15 23:58:00 server sshd[5000]: Accepted password for root from 172.16.0.99 port 9999 ssh2
+Jun 15 23:59:00 server useradd[5100]: new user: name=backdoor, UID=0, GID=0, home=/root, shell=/bin/bash
